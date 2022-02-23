@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: lightcyan;
+    padding-top: 10px;
+}
+
+header h1 {
+  margin: 0 0 20px 20px;
+}
+
+nav {
+  background-color: black;
+  padding: 15px 0;
+}
+
+.menu {
+  margin-left: 15px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 20px;
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+
+.menu-item {
+  color: black;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+    color:white;
+}
+
+aside{
+    width: 15%;
+    float: left;
+    background-color: black;
+    color: lightgreen;
+    height: 80vh;
+}
+
+.categorias-titulo{
+    margin: 20px 0  0 20px;
+}
+
+.categorias{
+    margin: 20px 40px;
+}
+
+.categorias li{
+    margin: 20px 0;    
+}
+
+.categorias-item{
+    text-decoration: none;
+    color: lightcyan;
+}
+
+.categorias-item:hover{
+    color: lightgreen
+}
+
+.principal {
+  height: 80vh;
+  background-color: lightcyan;
+  text-align: center;
+  display: inline-block;
+  width: 85%;
+}
+
+.principal h2 {
+  padding-top: 50px;
+}
+
+.texto-principal {
+  text-align: justify;
+  padding: 5% 10%;
+}
+
+.formulario{    
+    margin: 0 35%;
+}
+
+.campo-form{
+    display: block;
+    margin: 15px 0;
+    text-align: right;
+}
+
+.boton{
+    font-size: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background-color: black;
+    color: lightgreen;
+    border-color: lightgreen;
+}
+
+footer {
+  background-color: black;
+  padding: 30px 0;
+  color: lightgreen;
+  text-align: center;
+}
